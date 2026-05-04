@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class Solution_containsNearbyDuplicate:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         window_set = set()
         left = 0
