@@ -15,9 +15,14 @@ longest_harmonius_subsequence_solution = (
 )
 
 defuse_the_bomb_solution = Solution_defuse_the_bomb.defuse_the_bomb(
-    Solution_defuse_the_bomb, code=[2,4,9,3], k=-2
+    Solution_defuse_the_bomb, code=[2, 4, 9, 3], k=-2
 )
 
-print(contains_duplicate_solution)
-print(longest_harmonius_subsequence_solution)
-print(defuse_the_bomb_solution)
+defuse_the_bomb_alt_solution = Solution_defuse_the_bomb.defuse_the_bomb_alt(
+    Solution_defuse_the_bomb, code=[2, 4, 9, 3], k=-2
+)
+
+print(f"Contains duplicate -", contains_duplicate_solution)
+print(f"Longest harmonius subseq -", longest_harmonius_subsequence_solution)
+print(f"Defuse problem 1 -", defuse_the_bomb_solution)
+print(f"Defuse the problem alt sliding window -", defuse_the_bomb_alt_solution)
